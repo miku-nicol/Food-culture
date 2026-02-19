@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutImg1 from '../../assets/fufu3.jpg'; 
+import { FaArrowRight } from 'react-icons/fa';
 
 
 function AboutUsSection() {
@@ -31,7 +32,7 @@ function AboutUsSection() {
           {/* Left Column - Text Content */}
           <div className="space-y-8">
             
-            {/* Story Paragraph - Formatted beautifully */}
+            
             <div className="space-y-6">
               <p className="font-body text-lg text-gray-700 leading-relaxed">
                 Our fufu is <span className="font-bold text-[#2D5A27]">stone-ground</span> and{' '}
@@ -99,9 +100,7 @@ function AboutUsSection() {
             
             {/* Content */}
             <span className="relative font-body font-medium tracking-wide">Order Fufu Now</span>
-            <svg className="relative w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
+             <FaArrowRight/>
           </button>
         </div>
       </div>
