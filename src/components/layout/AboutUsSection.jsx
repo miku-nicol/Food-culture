@@ -1,6 +1,6 @@
 import React from 'react';
-import aboutImg1 from '../../assets/fufu3.jpg'; // Add your image
-import aboutImg2 from '../../assets/fufu3.jpg'; // Add your image
+import aboutImg1 from '../../assets/fufu3.jpg'; 
+
 
 function AboutUsSection() {
   return (
@@ -30,14 +30,7 @@ function AboutUsSection() {
           
           {/* Left Column - Text Content */}
           <div className="space-y-8">
-            {/* Premium Badge */}
-            <div className="inline-flex items-center space-x-2 bg-[#2D5A27]/10 px-4 py-2 rounded-full">
-              <div className="w-2 h-2 bg-[#2D5A27] rounded-full animate-pulse"></div>
-              <span className="font-body text-sm font-medium text-[#2D5A27] tracking-wider uppercase">
-                Since 1995
-              </span>
-            </div>
-
+            
             {/* Story Paragraph - Formatted beautifully */}
             <div className="space-y-6">
               <p className="font-body text-lg text-gray-700 leading-relaxed">
@@ -55,7 +48,7 @@ function AboutUsSection() {
               </div>
               
               <p className="font-body text-lg text-gray-700 leading-relaxed">
-                <span className="font-bold text-[#B22222]">We do not soak our cassava with soap</span> 
+                <span className="font-bold text-[#B22222]">We do not soak our cassava with soap </span> 
                 or any chemicals at all. Our process is pure, natural, and time-honored.
               </p>
             </div>

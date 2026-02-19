@@ -7,8 +7,8 @@ function Navbar() {
 
   const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about", label: "About Us" },
-    { href: "#value", label: "Value" },
+    { href: "#about", label: "Value" },
+    { href: "#value", label: "About Us" },
     { href: "#products", label: "Our Products" }
   ];
 
@@ -29,8 +29,8 @@ function Navbar() {
           : 'bg-gradient-to-b from-black/60 to-transparent backdrop-blur-sm '
       }`}
     >
-      {/* Premium top accent line */}
-      <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#B22222] to-transparent"></div>
+ 
+ 
       
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex items-center justify-between">

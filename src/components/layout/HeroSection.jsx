@@ -54,7 +54,7 @@ function HeroSection() {
         <div className="flex items-center justify-center space-x-3 mb-10">
           <div className="w-16 h-1 bg-[#2D5A27]"></div> {/* Green */}
           <div className="w-16 h-1 bg-[#B22222]"></div> {/* Red */}
-          <div className="w-16 h-1 bg-[#1A1A1A]"></div> {/* Black */}
+          <div className="w-16 h-1 bg-white"></div> {/* Black */}
         </div>
         
         {/* CTA Buttons */}
