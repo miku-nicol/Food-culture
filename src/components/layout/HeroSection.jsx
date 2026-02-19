@@ -21,7 +21,7 @@ function HeroSection() {
   }, []);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden ">
+    <section className="relative h-screen w-full overflow-hidden " id='home'>
       {/* Background Images with Crossfade Effect */}
       {bgImages.map((image, index) => (
         <div

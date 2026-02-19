@@ -4,7 +4,7 @@ import aboutImg1 from '../../assets/fufu3.jpg';
 
 function AboutUsSection() {
   return (
-    <section className="relative py-24 bg-[#F8F6F0] overflow-hidden">
+    <section className="relative py-24 bg-[#F8F6F0] overflow-hidden" id='about'>
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-[#2D5A27]/5 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#B22222]/5 rounded-full translate-x-1/2 translate-y-1/2"></div>

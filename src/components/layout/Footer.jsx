@@ -85,7 +85,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="relative bg-[#1A1A1A] text-[#F8F6F0] overflow-hidden">
+    <footer className="relative bg-[#1A1A1A] text-[#F8F6F0] overflow-hidden" id='contact'>
       {/* Decorative top border with brand colors */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#2D5A27] via-[#B22222] to-[#2D5A27]"></div>
       

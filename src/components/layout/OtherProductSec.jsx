@@ -19,7 +19,7 @@ function OtherProductSec() {
     ];
 
   return (
-    <section className='relative py-24 overflow-hidden'>
+    <section className='relative py-24 overflow-hidden' id='products'>
             {/* Background */}
             <div className='absolute w-full h-full bg-cover bg-center bg-fixed inset-0'
                 style={{

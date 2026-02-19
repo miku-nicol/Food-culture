@@ -33,7 +33,7 @@ function ValueSection() {
   ];
 
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-20 overflow-hidden" id='values'>
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed"
