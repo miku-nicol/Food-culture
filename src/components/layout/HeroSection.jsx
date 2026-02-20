@@ -41,7 +41,7 @@ function HeroSection() {
       {/* Content Overlay */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8">
         {/* Main Heading */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 max-w-5xl leading-tight font-heading tracking-wide">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 max-w-5xl leading-tight font-heading tracking-wide md:mt-7" >
           Food Culture
         </h1>
         
@@ -59,12 +59,16 @@ function HeroSection() {
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+          <a href="#contact">
           <button className="bg-[#B22222] hover:bg-[#8B1A1A] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 text-lg">
             Contact Us
           </button>
+          </a>
+          <a href="#about">
           <button className="border-2 border-white text-white hover:bg-white hover:text-[#1A1A1A] font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 text-lg">
             Learn More
           </button>
+          </a>
         </div>
 
         {/* Image Indicators (Dots) */}

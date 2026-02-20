@@ -152,7 +152,7 @@ function OtherProductSec() {
                             Need bulk orders or custom services? 
                         </span>
                         <a 
-                            href="#contact" 
+                            href="https://wa.me/2348124661448" 
                             className="font-heading text-[#B22222] hover:text-white transition-colors duration-300"
                         >
                             Contact us

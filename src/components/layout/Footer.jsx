@@ -12,7 +12,7 @@ function Footer() {
     { name: "Our Values", href: "#value" },
     { name: "Products", href: "#products" },
     { name: "Services", href: "#services" },
-    { name: "Contact", href: "#contact" }
+   
   ];
 
   const products = [
@@ -32,6 +32,25 @@ function Footer() {
   ];
 
   const contactInfo = [
+      { 
+      icon: (
+        <FaEnvelope className="w-5 h-5" />
+      ),
+      text:  <a href="mailto:foodculture@gmail.com">foodculture@gmail.com</a>
+    },
+    { 
+      icon: (
+         <FaPhone className="w-5 h-5" />
+      ),
+      text:  <a href="tel:2347088530047">+2347088530047</a>
+    },
+     {
+    icon: (
+      <FaWhatsapp className='w-5 h-5'/>
+    ),
+    text: <a href="https://wa.me/2348124661448">+2348124661448</a>
+    },
+  
     { 
       icon: (
         
@@ -39,18 +58,7 @@ function Footer() {
       ),
       text: "3, icempire karaloe estates,lagos,Nigeria"
     },
-    { 
-      icon: (
-         <FaPhone className="w-5 h-5" />
-      ),
-      text: "+234 8124661448"
-    },
-    { 
-      icon: (
-        <FaEnvelope className="w-5 h-5" />
-      ),
-      text: "foodculture@gmail.com"
-    }
+   
   ];
 
   const socialLinks = [
@@ -80,7 +88,7 @@ function Footer() {
       icon: (
          <FaWhatsapp/>
       ),
-      href: "#"
+      href: "https://wa.me/2348124661448"
     }
   ];
 
@@ -89,12 +97,7 @@ function Footer() {
       {/* Decorative top border with brand colors */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#2D5A27] via-[#B22222] to-[#2D5A27]"></div>
       
-      {/* Background Pattern (subtle) */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-0 left-0 w-64 h-64 bg-[#2D5A27] rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#B22222] rounded-full blur-3xl"></div>
-      </div>
-
+      
       {/* Main Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         
@@ -108,12 +111,12 @@ function Footer() {
               <img 
                 src={logo} 
                 alt="Food Culture" 
-                className="h-16 w-auto brightness-0 invert" // Makes logo white if needed
+                className="h-16 w-auto " // Makes logo white if needed
               />
             </div>
             
             <p className="font-body text-sm text-gray-400 leading-relaxed">
-              Bringing the authentic taste of traditional African cuisine to your table with premium organic produce and ethically sourced products.
+               Producing farm fresh food for all affordable price in an hygienic environment
             </p>
             
             {/* Social Links */}
@@ -182,13 +185,13 @@ function Footer() {
               Contact Us
               <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-[#B22222]"></span>
             </h3>
-            <ul className="space-y-4">
+            <ul className="space-y-4 ">
               {contactInfo.map((item, index) => (
                 <li key={index} className="flex items-start space-x-3">
                   <span className="text-[#B22222] mt-1 flex-shrink-0">
                     {item.icon}
                   </span>
-                  <span className="font-body text-sm text-gray-400">
+                  <span className="font-body text-sm text-gray-400 hover:text-[#2D5A27] ">
                     {item.text}
                   </span>
                 </li>
@@ -200,24 +203,13 @@ function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-white/10">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="justify-self-center md: justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <p className="font-body text-sm text-gray-500">
               © {currentYear} Food Culture. All rights reserved.
             </p>
 
-            {/* Footer Links */}
-            <div className="flex space-x-6">
-              <a href="#" className="font-body text-xs text-gray-500 hover:text-[#B22222] transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="font-body text-xs text-gray-500 hover:text-[#B22222] transition-colors">
-                Terms of Service
-              </a>
-              <a href="#" className="font-body text-xs text-gray-500 hover:text-[#B22222] transition-colors">
-                Shipping Policy
-              </a>
-            </div>
+             
             
           </div>
         </div>

@@ -10,10 +10,10 @@ function Navbar() {
   // CORRECTED: navLinks with proper section IDs
   const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about", label: "About Us" },      // Fixed: Swapped with Value
-    { href: "#values", label: "Our Values" },    // Fixed: Changed from #value to #values
-    { href: "#products", label: "Products" },    // Fixed: Changed from "Our Products" to match ID
-    { href: "#contact", label: "Contact" }       // Added Contact link
+    { href: "#about", label: "About Us" },      
+    { href: "#values", label: "Our Values" },    
+    { href: "#products", label: "Products" },    
+    { href: "#contact", label: "Contact" }  
   ];
 
   // Smooth scroll function
@@ -26,7 +26,7 @@ function Navbar() {
         block: 'start',
       });
     }
-    setMobileMenuOpen(false); // Close mobile menu after clicking
+    setMobileMenuOpen(false); 
   };
 
   // Change navbar style on scroll
