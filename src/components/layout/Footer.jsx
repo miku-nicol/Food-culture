@@ -48,7 +48,7 @@ function Footer() {
     icon: (
       <FaWhatsapp className='w-5 h-5'/>
     ),
-    text: <a href="https://wa.me/2348124661448">+2348124661448</a>
+    text: <a href="https://wa.me/2349112797560">+2349112797560</a>
     },
   
     { 
@@ -88,7 +88,7 @@ function Footer() {
       icon: (
          <FaWhatsapp/>
       ),
-      href: "https://wa.me/2348124661448"
+      href: "https://wa.me/2349112797560"
     }
   ];
 
@@ -116,7 +116,7 @@ function Footer() {
             </div>
             
             <p className="font-body text-sm text-gray-400 leading-relaxed">
-               Producing farm fresh food for all affordable price in an hygienic environment
+               Producing farm fresh food for all affordable price in a hygienic environment
             </p>
             
             {/* Social Links */}
