@@ -35,10 +35,8 @@ function AboutUsSection() {
             
             <div className="space-y-6">
               <p className="font-body text-lg text-gray-700 leading-relaxed">
-                Our fufu is <span className="font-bold text-[#2D5A27]">stone-ground</span> and{' '}
-                <span className="font-bold text-[#2D5A27]">traditionally dried</span>, giving it 
-                that perfect, smooth stretch and authentic taste you'll remember. Every batch is 
-                crafted to pair perfectly with any of our wild game soups.
+                Our cassava is perfectly soaked to achieve a smooth,rich and authentic taste you'll remember.It pairs perfectly with any of your homemade Nigerian delicious soups.
+                
               </p>
               
               <div className="relative pl-6 border-l-4 border-[#B22222]">
