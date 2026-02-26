@@ -116,7 +116,9 @@ function Footer() {
             </div>
             
             <p className="font-body text-sm text-gray-400 leading-relaxed">
-               Producing farm fresh food for all affordable price in a hygienic environment
+               To give you healthy farm produce in a hygienic environment
+                preserving the authentic taste of tradition while ensuring the highest 
+                standards of cleanliness and quality
             </p>
             
             {/* Social Links */}

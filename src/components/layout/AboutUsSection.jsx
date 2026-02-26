@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg1 from '../../assets/fufu3.jpg'; 
+import aboutImg1 from '../../assets/fufu1.jpg'; 
 import { FaArrowRight } from 'react-icons/fa';
 
 
